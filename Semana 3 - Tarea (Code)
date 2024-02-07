@@ -1,0 +1,52 @@
+1. Inicio
+
+2. Preguntar los años de edad (edad)
+2.1 Si edad >=18 && edad <=65
+2.1.1 Dirigirse al paso número 3
+2.2 Si edad <18 y edad>65 entonces
+2.2.1 Mostrar “No puede ser donante de sangre”
+2.2.2 Dirigirse al paso número 9.
+
+3. Preguntar sobre su peso (peso)
+3.1 Si peso >= 50Kg entonces
+3.1.1 Dirigirse al paso número 4
+3.2 Si peso <50Kg entonces
+3.2.1 Mostrar “No puede ser donante de sangre”
+3.2.2 Dirigirse al paso número 9.
+
+4. Preguntar sobre su estado de salud (salud)
+4.1 Si salud == “No tiene enfermedades crónicas o infecciosas” entonces
+4.1.1 Dirigirse al paso número 5
+4.2 Si salud == “Tiene enfermedades crónicas o infecciosas” entonces
+4.2.1 Mostrar “No puede ser donante de sangre”
+4.2.2 Dirigirse al paso número 9
+
+5. Preguntar sobre su última cirugía (uc)
+5.1 Si uc > 6 meses entonces
+5.1.1 “Dirigirse al paso número 6”
+5.2 Si uc <= 6 meses entonces
+5.2.1 Mostrar “No puede ser donante de sangre”
+5.2.2 Dirigirse al paso número 9.
+
+6. Preguntar si ha tenido manipulaciones en la piel (tattoo)
+6.1 Si tattoo > 12 meses entonces
+6.1.1 Dirigirse al paso número 7
+6.2 Si tattoo <= 12 meses entonces
+6.2.1 Mostrar “No puede ser donante de sangre”
+6.2.2 Dirigirse al paso número 9.
+
+7. Preguntar si se ha estado embarazado en los últimos 6 meses (pregnant)
+7.1 Si pregnant > 6 meses entonces
+7.1.1 Dirigirse al paso número 8
+7.2 Si pregnant <= 6 meses entonces
+7.2.1 Mostrar “No puede ser donante de sangre”
+7.2.2 Dirigirse al paso número 9
+
+8. Preguntar si ha tomado alcohol en las últimas 24 horas (drinks)
+8.1 Si drinks > 24 horas entonces
+8.1.1 Mostrar “Tiene todos los prerrequisitos, puede ser donante de sangre”
+8.2 Si drinks <= 24 horas entonces
+8.2.1 Mostrar “No puede ser donante de sangre”
+8.2.2 Dirigirse al paso número 9.
+
+9. Fin del Algoritmo
